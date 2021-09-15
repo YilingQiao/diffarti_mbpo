@@ -2,7 +2,7 @@ import numpy as np
 from gym import utils, spaces
 import gym
 import torch
-import pytinydiffsim as pd
+import pydiffarti as pd
 import api_diff
 
 def calc_jac(y, x, free=False):

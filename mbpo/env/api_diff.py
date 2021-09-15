@@ -1,5 +1,5 @@
 import torch
-import pytinydiffsim as pd
+import pydiffarti as pd
 
 class SimLayer(torch.autograd.Function):
 	@staticmethod
